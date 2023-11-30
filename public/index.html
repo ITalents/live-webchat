@@ -8,7 +8,18 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-  
+  <div id="username-setter">
+    <input id="username" placeholder="Digite seu usuario" autocomplete="off">
+    <button onclick="setUsername()">Configurar username</button>
+  </div>
+
+  <div id="chat" style="display: none;">
+    <div id="mensagens">
+      <ul id="messages">
+      </ul>
+    </div>
+    <input id="m" autocomplete="off"><button onclick="sendMessage()">Enviar</button>
+  </div>
   <script src="./script.js"></script>
 </body>
 </html>
